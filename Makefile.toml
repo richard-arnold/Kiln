@@ -21,3 +21,8 @@ args = ["make", "--cwd", "data-forwarder", "build-data-forwarder-musl"]
 [tasks.build-bundler-audit-docker]
 command = "cargo"
 args = ["make", "--cwd", "tool-images/ruby/bundler-audit", "build-bundler-audit-docker"]
+
+[tasks.build-yarn-audit-docker]
+command = "cargo"
+args = ["make", "--cwd", "tool-images/javascript/yarn-audit", "build-yarn-audit-docker"]
+

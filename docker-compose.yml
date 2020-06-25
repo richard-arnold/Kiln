@@ -61,7 +61,7 @@ services:
       - KAFKA_BOOTSTRAP_TLS=kafka:9092
       - RUST_LOG=info
       - DISABLE_KAFKA_DOMAIN_VALIDATION=true
-      - OAUTH2_TOKEN
-      - SLACK_CHANNEL_ID
+      - OAUTH2_TOKEN=xoxb-893325319988-1151223118817-DGlJdvLpROz8AvB9t2qgdpnK
+      - SLACK_CHANNEL_ID=C0140US277X
     volumes:
       - ./tls:/tls
